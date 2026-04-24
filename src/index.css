@@ -1,0 +1,52 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;   
+}
+
+ul, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+:root {
+
+    /* --COLORS-- */
+    --color-primary-black: #000000;
+    --color-primary-cyan: #00B8FC;
+    --color-secondary-white: #ffffff;
+    --color-secondary-cyan-but-darkness: #005777;
+
+    /* --FONT-FAMILIES-- */
+    --ff-primary: "Raleway", sans-serif;
+
+    /* --FONT-SIZES-- */
+    --fs-headline-h1: 50px;
+    --fs-headline-h2: 32px;
+    --fs-paragraph: 20px;
+
+    /* --FONT-WEIGHTS-- */
+    --fw-bold: 700;
+
+} 
+
+.btn-primary {
+    color: var(--color-secondary-white);
+    background-color: var(--color-primary-cyan);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-paragraph);
+    font-weight: var(--fw-bold);
+    padding: 10px 30px;
+    border-radius: 40px;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

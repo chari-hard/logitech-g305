@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100vw;
+    padding: 0px 50px;
+    position: absolute;
+    z-index: 9999;
+    background-color: var(--color-primary-black);
+}
+
+header .navegacao-header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+header .navegacao-header li a {
+    text-decoration: none;
+    color: var(--color-secondary-white);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-paragraph);
+}
+
+.botao-de-comprar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 222px;
+}
