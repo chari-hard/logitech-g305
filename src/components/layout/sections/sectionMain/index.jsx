@@ -57,10 +57,10 @@ export const SectionMain = () => {
                     </motion.div>
                 </div>
 
-                <Link>
+                <a href="https://www.logitechstore.com.br/mouse-sem-fio-para-jogos-logitech-g305-lightspeed/" target='blank'>
                     <button className='btn-primary'>Comprar agora</button>
-                </Link>
-            </div>
+                </a>
+        </div>
         </section>
     )
 }

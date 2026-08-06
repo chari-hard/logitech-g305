@@ -33,9 +33,9 @@ export const SectionCTA = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut", delay: 1 }}
                     viewport={{ once: false, amount: 1 }}>
-                    <Link to="/">
+                    <a href="https://www.logitechstore.com.br/mouse-sem-fio-para-jogos-logitech-g305-lightspeed/" target='blank'>
                         <button className='btn-primary'>Comprar agora</button>
-                    </Link>
+                    </a>
                 </motion.div>
             </div>
         </section>

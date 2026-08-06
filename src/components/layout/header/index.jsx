@@ -25,9 +25,9 @@ export const Header = () => {
             </nav>
 
             <div className='botao-de-comprar-header'>
-                <Link to="/">
+                <a href="https://www.logitechstore.com.br/mouse-sem-fio-para-jogos-logitech-g305-lightspeed/" target='blank'>
                     <button className='btn-primary'>Comprar</button>
-                </Link>
+                </a>
             </div>
 
         </header>
